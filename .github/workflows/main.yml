@@ -22,14 +22,6 @@ on:
         default: ''
         type: string
 jobs:
-  
-  activate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
   save-file:
     runs-on: ubuntu-latest
     timeout-minutes: 120
